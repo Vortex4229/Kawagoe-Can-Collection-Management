@@ -5,7 +5,7 @@ namespace Kawagoe_Can_Collection_Management_API;
 
 public class RoomManagementRepo {
 	
-	//get functions
+	// get functions
 	
 	public static byte? GetBoxOwnership(MySqlConnection conn, string roomNumber) {
 		var boxOwnershipQuery = "SELECT box_ownership FROM rooms WHERE room_number=@roomNumber";
@@ -39,7 +39,7 @@ public class RoomManagementRepo {
 
 		var teacherNameCmd = new MySqlCommand(teacherNameQuery, conn);
 
-		string? teacherName = null;
+		string teacherName = "";
 
 		try {
 			conn.Open();
@@ -147,7 +147,7 @@ public class RoomManagementRepo {
 
 		var commentCmd = new MySqlCommand(commentQuery, conn);
 
-		string? comment = null;
+		string comment = "";
 
 		try {
 			conn.Open();
@@ -170,7 +170,7 @@ public class RoomManagementRepo {
 		return comment;
 	}
 	
-	//update functions
+	// set functions
 
 	public static bool UpdateBoxOwnership(MySqlConnection conn, string roomNumber, byte boxOwnership) {
 		var updateBoxOwnershipQuery = "UPDATE rooms SET box_ownership=@boxOwnership WHERE room_number=@roomNumber";
@@ -244,7 +244,7 @@ public class RoomManagementRepo {
 		return success;
 	}
 	
-	public static bool UpdateLastCollectionDate(MySqlConnection conn, string roomNumber, DateTime lastCollectionDate) {
+	public static bool UpdateLastCollectionDate(MySqlConnection conn, string roomNumber, DateOnly lastCollectionDate) {
 		var updateLastCollectionDateQuery = "UPDATE rooms SET last_collection_date=@lastCollectionDate WHERE room_number=@roomNumber";
 
 		var updateLastCollectionDateCmd = new MySqlCommand(updateLastCollectionDateQuery, conn);

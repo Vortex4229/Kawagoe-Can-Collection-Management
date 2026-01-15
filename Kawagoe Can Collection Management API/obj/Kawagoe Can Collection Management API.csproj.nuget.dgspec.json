@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pebrp\\RiderProjects\\Advanced Computer Projects\\Kawagoe Can Collection Management\\Kawagoe Can Collection Management API\\Kawagoe Can Collection Management API.csproj": {}
+    "C:\\Users\\pebrp\\RiderProjects\\Kawagoe Can Collection Management\\Kawagoe Can Collection Management API\\Kawagoe Can Collection Management API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pebrp\\RiderProjects\\Advanced Computer Projects\\Kawagoe Can Collection Management\\Kawagoe Can Collection Management API\\Kawagoe Can Collection Management API.csproj": {
+    "C:\\Users\\pebrp\\RiderProjects\\Kawagoe Can Collection Management\\Kawagoe Can Collection Management API\\Kawagoe Can Collection Management API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pebrp\\RiderProjects\\Advanced Computer Projects\\Kawagoe Can Collection Management\\Kawagoe Can Collection Management API\\Kawagoe Can Collection Management API.csproj",
+        "projectUniqueName": "C:\\Users\\pebrp\\RiderProjects\\Kawagoe Can Collection Management\\Kawagoe Can Collection Management API\\Kawagoe Can Collection Management API.csproj",
         "projectName": "Kawagoe Can Collection Management API",
-        "projectPath": "C:\\Users\\pebrp\\RiderProjects\\Advanced Computer Projects\\Kawagoe Can Collection Management\\Kawagoe Can Collection Management API\\Kawagoe Can Collection Management API.csproj",
+        "projectPath": "C:\\Users\\pebrp\\RiderProjects\\Kawagoe Can Collection Management\\Kawagoe Can Collection Management API\\Kawagoe Can Collection Management API.csproj",
         "packagesPath": "C:\\Users\\pebrp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pebrp\\RiderProjects\\Advanced Computer Projects\\Kawagoe Can Collection Management\\Kawagoe Can Collection Management API\\obj\\",
+        "outputPath": "C:\\Users\\pebrp\\RiderProjects\\Kawagoe Can Collection Management\\Kawagoe Can Collection Management API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pebrp\\AppData\\Roaming\\NuGet\\NuGet.Config"

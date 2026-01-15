@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kawagoe Can Collection Management API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ef57d62ce0f0756ffc3681ae28ea55dce6dc4b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kawagoe Can Collection Management API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kawagoe Can Collection Management API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
